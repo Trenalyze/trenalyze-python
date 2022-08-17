@@ -174,8 +174,8 @@ class Trenalyze:
         if self.token == "":
             return "Token is Required"
 
-        #if token length is less than 20
-        if len(self.token) < 20:
+        #if token length is less than 20 or greater than 20
+        if len(self.token) < 20 or len(self.token) > 20:
             return "Invalid Token. Kindly Re Confirm Token"
             
         # Returning the result of the __sendRequest() method.
