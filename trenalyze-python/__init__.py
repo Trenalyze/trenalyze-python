@@ -1,20 +1,32 @@
 import requests
 from requests.structures import CaseInsensitiveDict
 
-url = "https://trenalyze.com/api/send"
+class Trenalyze:
+    def __init__(self, token, sender, receiver, msgtext):
+        self.token = token
+        self.sender = sender
+        self.receiver = receiver
+        self.msgtext = msgtext
 
-headers = CaseInsensitiveDict()
-headers['Content-Type'] = 'application/json'
+    def __getUrl(self):
+        url = "https://trenalyze.com/api/send"
+        return url
 
-data = """
-{
-    "token": "w0bW6GuaQjKUog5GXOJb",
-    "sender": "2347019491161",
-    "receiver": "2348157002782",
-    "msgtext": "Testing load balancer live real"
-}
-"""
+    def __sendRequest(self):
+        data = """
+        {
+            "token": self.token,
+            "sender": self.sender,
+            "receiver": self.receiver,
+            "msgtext": self.msgtext
+        }
+        """
+        headers = CaseInsensitiveDict()
+        headers['Content-Type'] = 'application/json'
+        resp = requests.post(self.__getUrl(), headers=headers, data=data)
+        return resp.status_code
+    
+    def send(self):
+        return self.__sendRequest()
 
-resp = requests.post(url, headers=headers, data=data)
-
-print(resp.status_code)
+        
