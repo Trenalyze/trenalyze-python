@@ -12,7 +12,7 @@ setuptools.setup(
     description="A Python package to send WhatsApp messages through Trenalyze",
     long_description=description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Trenalyze/trenalyze-python",
+    url="https://github.com/Trenalyze/trenalyze_python",
     license="MIT",
     python_requires=">=3.6",
     install_requires=["requests"]
