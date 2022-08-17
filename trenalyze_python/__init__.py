@@ -32,11 +32,20 @@ class Trenalyze:
         """
         It sets the sender of the message.
         
-        :param sender: The sender's email address
+        :param sender: The sender's phone number.
         """
+
+        # Setting the sender of the message.
         self.sender = sender
 
     def setReceiver(self, receiver):
+        """
+        It sets the receiver of the message.
+        
+        :param receiver: The WhatsApp Number of the receiver
+        """
+
+        # Setting the receiver of the message.
         self.receiver = receiver
     
     def setMsgtext(self, msgtext):
