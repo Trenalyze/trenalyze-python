@@ -5,7 +5,7 @@ from trenalyze_python import Trenalyze
 token = "w0bW6GuaQjKUog5GXOJb"
 
 # This is the sender's phone number.
-sender = "2347019491161"
+sender = "YOUR_SENDER_NUMBER"
 
 # This is the receiver's phone number.
 receiver = "2348157002782"
