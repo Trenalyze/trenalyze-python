@@ -29,6 +29,11 @@ class Trenalyze:
         self.token = token
     
     def setSender(self, sender):
+        """
+        It sets the sender of the message.
+        
+        :param sender: The sender's email address
+        """
         self.sender = sender
 
     def setReceiver(self, receiver):
