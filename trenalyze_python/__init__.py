@@ -1,13 +1,31 @@
 # Importing the requests module.
 import requests
+
+# Importing the CaseInsensitiveDict class from the requests.structures module.
 from requests.structures import CaseInsensitiveDict
+
+# Importing the json module.
 import json
 
+# The class is used to send whatsApp messages to a phone number using the Trenalyze API
 class Trenalyze:
+
     def __init__(self):
+        """
+        A constructor.
+        """
+
+        # `pass` is a null statement. It is used as a placeholder.
         pass
 
     def setToken(self, token):
+        """
+        It sets the token for the user.
+        
+        :param token: The token of the sender you want to use
+        """
+
+       # Setting the token for the user.
         self.token = token
     
     def setSender(self, sender):
