@@ -3,11 +3,22 @@ from requests.structures import CaseInsensitiveDict
 import json
 
 class Trenalyze:
-    def __init__(self, token, sender, receiver, msgtext, debug=False):
+    def __init__(self):
+        pass
+
+    def setToken(self, token):
         self.token = token
+    
+    def setSender(self, sender):
         self.sender = sender
+
+    def setReceiver(self, receiver):
         self.receiver = receiver
+    
+    def setMsgtext(self, msgtext):
         self.msgtext = msgtext
+
+    def setDebug(self, debug = False):
         self.debug = debug
 
     def __getUrl(self):
@@ -42,8 +53,8 @@ class Trenalyze:
                 return "Error: {}".format(e)
             else:
                 return "Sorry an Error Occured. Kindly enable debug mode to see more details"
-                
-    def send(self):
+
+    def sendMessage(self):
         #make sure sender and receiver are numbers and its not empty
         if self.sender == "":
             return "Sender cannot be empty"
