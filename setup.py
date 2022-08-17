@@ -12,13 +12,8 @@ setuptools.setup(
     description="A Python package to send WhatsApp messages through Trenalyze",
     long_description=description,
     long_description_content_type="text/markdown",
-    url="",
-    license="MIT"
+    url="https://github.com/Trenalyze/trenalyze-python",
+    license="MIT",
     python_requires=">=3.6",
-    install_requires=["requests"],
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
+    install_requires=["requests"]
 )
