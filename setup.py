@@ -15,5 +15,5 @@ setuptools.setup(
     url="https://github.com/Trenalyze/trenalyze_python",
     license="MIT",
     python_requires=">=3.6",
-    install_requires=["requests"]
+    install_requires=["requests", "json"]
 )
