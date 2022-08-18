@@ -1,5 +1,5 @@
 # Importing the Trenalyze class from the trenalyze_python module.
-from trenalyze_python import Trenalyze
+from trenalyze__python import Trenalyze
 
 # The API key for the Trenalyze API.
 token = "w0bW6GuaQjKUog5GXOJb"
