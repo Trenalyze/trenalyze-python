@@ -103,7 +103,7 @@ print(res)
 
 ### 5. Sample Response
 
-```json
+```js
 {
     'status': True, 
     'response': {
