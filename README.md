@@ -1,4 +1,4 @@
-# trenalyze(PYTHON) V0.0.2
+# trenalyze(PYTHON) V0.0.3
 
 [Author](https://treasureuvietobore.com/) |
 [Docs](https://github.com/Trenalyze/trenalyze_python#readme)
@@ -16,7 +16,7 @@
 
 Using PIP:
 ```shell
-$ pip install trenalyze-python
+$ pip install trenalyze_python
 ```
 
 In PYTHON:
