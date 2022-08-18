@@ -100,3 +100,14 @@ res = trenalyze.sendMessage()
 
 print(res)
 ```
+
+### 5. Sample Response
+
+```json
+{
+    'status': True, 
+    'response': {
+        'message': 'Messages sent successfully'
+    }
+}
+```
