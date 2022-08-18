@@ -175,9 +175,9 @@ buttons: [
     ['index' => 3, 'quickReplyButton' => ['displayText' => 'This is a reply, just like normal buttons!', 'id' => 'id-like-buttons-message']]
 ```
 **NOTE:** When not using **mediaurl** and **buttons** set to **NULL**
-```js
-mediaurl: '',
-buttons: ''
+```python
+mediaurl = ''
+buttons =  ''
 ```
 
 ### 3. Send The Required Variables
