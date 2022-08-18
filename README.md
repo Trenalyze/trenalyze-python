@@ -1,7 +1,7 @@
 # trenalyze(PYTHON) V0.0.1
 
 [Author](https://treasureuvietobore.com/) |
-[Docs](https://github.com/Trenalyze/trenalyze_python#readme)
+[Docs](https://github.com/Trenalyze/trenalyze__python#readme)
 
 
 ## Library Prerequisites
@@ -16,7 +16,7 @@
 
 Using PIP:
 ```shell
-$ pip install trenalyze_python
+$ pip install trenalyze__python
 ```
 
 In PYTHON:
@@ -25,7 +25,7 @@ In PYTHON:
 
 ```python
 # Load the full build.
-from trenalyze_python import Trenalyze
+from trenalyze__python import Trenalyze
 ```
 
 ## API
