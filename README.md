@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# trenalyze(PYTHON) V0.0.1
+# trenalyze(PYTHON) V0.0.2
 
 [Author](https://treasureuvietobore.com/) |
 [Docs](https://github.com/Trenalyze/trenalyze_python#readme)
