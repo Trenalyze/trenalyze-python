@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="trenalyze_python",
-    version="0.0.3",
+    version="0.0.1",
     author="Treasure Uvietobore",
     author_email="uvietoboretreasure@gmail.com",
     packages=["trenalyze_python"],
