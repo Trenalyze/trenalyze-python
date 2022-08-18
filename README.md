@@ -1,4 +1,4 @@
-# trenalyze(PYTHON) V0.0.3
+# trenalyze(PYTHON) V0.0.1
 
 [Author](https://treasureuvietobore.com/) |
 [Docs](https://github.com/Trenalyze/trenalyze_python#readme)
@@ -63,12 +63,13 @@ trenalyze.setToken(token)
 # Set the Required Parameters for sending a message 
 sender =  'YOUR_WHATSAPP_NUMBER'
 receiver = 'RECIPIENT_NUMBER'
-msgtext: 'Hello World'
-mediaurl: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'
-buttons: [
+msgtext = 'Hello World'
+mediaurl = 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'
+buttons = [
     ['index' => 1, 'urlButton' => ['displayText' => 'Visit my website!', 'url' => 'https://trenalyze.com']],
     ['index' => 2, 'callButton' => ['displayText' => 'Call me!', 'phoneNumber' => '+1 (234) 5678-9012']],
     ['index' => 3, 'quickReplyButton' => ['displayText' => 'This is a reply, just like normal buttons!', 'id' => 'id-like-buttons-message']]
+]
 ```
 **NOTE:** When not using **mediaurl** and **buttons** set to **NULL**
 ```python
