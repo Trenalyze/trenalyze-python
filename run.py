@@ -13,6 +13,12 @@ receiver = "2348157002782"
 # This is the message text.
 msgtext = "From Trenalyze Python Module Happy Birthday"
 
+mediaurl = "https://trenalyze.com/users/1/avatar.png"
+
+buttons = [
+    ['index' => 1, 'urlButton' => ['displayText' => 'Hello', 'url' => 'https://www.google.com']],
+]
+
 # Creating an instance of the Trenalyze class.
 trenalyze = Trenalyze()
 
@@ -27,6 +33,12 @@ trenalyze.setReceiver(receiver)
 
 # Setting the message text.
 trenalyze.setMsgtext(msgtext)
+
+# Setting the media url.
+trenalyze.setMediaUrl(mediaurl)
+
+#setting the buttons
+trenalyze.setButtons(buttons)
 
 # Setting the debug mode to True/False.
 trenalyze.setDebug(True)
