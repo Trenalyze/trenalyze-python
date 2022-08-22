@@ -68,6 +68,16 @@ class Trenalyze:
         # Setting the media url of the message.
         self.mediaurl = mediaurl
 
+    def setButtons(self, buttons):
+        """
+        It sets the buttons of the message.
+        
+        :param buttons: The buttons of the message.
+        """
+
+        # Setting the buttons of the message.
+        self.buttons = buttons
+
     def setDebug(self, debug = False):
         """
         It sets the debug flag to True or False.
@@ -111,7 +121,9 @@ class Trenalyze:
                 "sender": self.sender,
                 "token": self.token,
                 "receiver": self.receiver,
-                "msgtext": self.msgtext
+                "msgtext": self.msgtext,
+                "mediaurl": self.mediaurl,
+                "buttons": self.buttons
             }
             
             # Sending a post request to the Trenalyze API.
