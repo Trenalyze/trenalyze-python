@@ -15,7 +15,7 @@ msgtext = "From Trenalyze Python Module Happy Birthday"
 
 mediaurl = "https://trenalyze.com/users/1/avatar.png"
 
-# create an array of buttons that will be sent to the user
+# Create an array of buttons that will be sent to the user
 buttons = [
     {
         "index": "1",
