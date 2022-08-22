@@ -58,6 +58,16 @@ class Trenalyze:
         # Setting the message text.
         self.msgtext = msgtext
 
+    def setMediaUrl(self, mediaurl):
+        """
+        It sets the media url.
+        
+        :param mediaurl: The media url of the message.
+        """
+
+        # Setting the media url of the message.
+        self.mediaurl = mediaurl
+
     def setDebug(self, debug = False):
         """
         It sets the debug flag to True or False.
@@ -169,6 +179,16 @@ class Trenalyze:
         #if receiver is not a number
         if not self.receiver.isdigit():
             return "Receiver must me a valid Phone Number"
+
+        #if mediaurl is not a valid url
+        if self.mediaurl != "":
+            if not self.mediaurl.startswith("https://"):
+                return "Invalid Media Url. Kindly use a valid url with https://"
+
+        #if buttons is not an array
+        if self.buttons != "":
+            if not isinstance(self.buttons, list):
+                return "Buttons must be an array"
 
         #if token is empty
         if self.token == "":
