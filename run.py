@@ -13,18 +13,21 @@ receiver = "2348157002782"
 # This is the message text.
 msgtext = "From Trenalyze Python Module Happy Birthday"
 
-mediaurl = "https://trenalyze.com/users/1/avatar.png"
+# mediaurl = "https://trenalyze.com/users/1/avatar.png"
 
-# Create an array of buttons that will be sent to the user
-buttons = [
-    {
-        "index": "1",
-        "urlButton": {
-            "displayText": "Click Me",
-            "url": "https://www.google.com"
-        }
-    }
-]
+# # Create an array of buttons that will be sent to the user
+# buttons = [
+#     {
+#         "index": "1",
+#         "urlButton": {
+#             "displayText": "Click Me",
+#             "url": "https://www.google.com"
+#         }
+#     }
+# ]
+mediaurl = 'https://trenalyze.com/public/users/1/avatar.png'
+
+buttons = ''
 
 # Creating an instance of the Trenalyze class.
 trenalyze = Trenalyze()
