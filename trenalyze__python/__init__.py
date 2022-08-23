@@ -201,6 +201,8 @@ class Trenalyze:
         if self.buttons != "":
             if not isinstance(self.buttons, list):
                 return "Buttons must be an array"
+        else:
+            return "Button is required"
 
         #if token is empty
         if self.token == "":
